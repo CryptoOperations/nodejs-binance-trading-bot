@@ -10,6 +10,7 @@
 `npm run build`
 
 ## Starting the Application
-`npm run start:dev`  - development mode
-`npm run start:stag` - staging mode
-`npm run start:prod` - production mode
+`npm run start:dev`  - development mode  
+`npm run start:stag` - staging mode  
+`npm run start:prod` - production mode  
+
