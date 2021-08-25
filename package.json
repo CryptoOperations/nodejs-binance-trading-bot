@@ -1,0 +1,19 @@
+{
+  "name": "node-ts-seed-app",
+  "version": "1.0.0",
+  "description": "Vanilla Node.js Seed Application written with TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.server.json --removeComments",
+    "start:dev": "SET NODE_ENV=development& node _build/index.js",
+    "start:stag": "SET NODE_ENV=staging& node _build/index.js",
+    "start:prod": "SET NODE_ENV=production& node _build/index.js",
+    "test": "test"
+  },
+  "author": "Csaba S. Todor",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.7.1"
+  }
+}
