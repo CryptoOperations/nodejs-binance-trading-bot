@@ -5,7 +5,7 @@ const reqHandlers: any = {};
 reqHandlers.index = (data: any, callback: any) => {
 
     if ((data.method).toLowerCase() === 'get') {
-        callback(200, 'Welcome to the Node.js TypeScript Seed API!', 'html');
+        callback(200, 'Welcome to the Binance Trader Bot API!', 'html');
     } else {
         callback(405, undefined, 'html');
     }

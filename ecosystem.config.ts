@@ -36,7 +36,7 @@ export const env = environments[currentEnvironment] ? environments[currentEnviro
 // Envitonment Variables for Process Manager (PM2)
 export const apps = [
     {
-        name: 'SEED_APP',
+        name: 'BINANCE_TRADER_BOT',
         script: './index.js',
         watch: false,
         env_development: {
